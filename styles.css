@@ -6,7 +6,14 @@
     color: #555; /* Steel Gray */
     font-family: "Roboto", sans-serif;
   }
-  
+  .nav-tabs .nav-link {
+    margin-bottom: calc(-1* var(--bs-nav-tabs-border-width));
+    border: var(--bs-nav-tabs-border-width) solid transparent;
+    border-top-left-radius: var(--bs-nav-tabs-border-radius);
+    border-top-right-radius: var(--bs-nav-tabs-border-radius);
+    border-bottom-left-radius: var(--bs-nav-tabs-border-radius);
+    border-bottom-right-radius: var(--bs-nav-tabs-border-radius);
+}
   .navbar-brand {
     font-size: 30px;
   }
@@ -15,7 +22,9 @@
     font-size: 18px !important;
     font-weight: 500;
   }
-  
+  .nav-tabs {
+    border-radius: 20px !important;
+  }
   .head-section{
     background-image: linear-gradient(180deg, #c4b6fd, #93acfc);
   }
